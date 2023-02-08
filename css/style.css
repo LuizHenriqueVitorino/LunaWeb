@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100%;
+}
+body{
+    display: flex;
+    height: 100%;
+}
+header{
+    display: flex;
+    width: 100%;
+    height: 25%;
+    background-color: #ACD3F7;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+main{
+    height: 75%;
+    overflow-y: scroll;
+}
+ul{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    margin-top: -150px;
+}
+a{
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+#foto-principal{
+    display: flex;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    position: absolute;
+}
+#fotos{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: auto auto auto;
+    gap: 25px;
+    margin-top: 25px;
+    justify-content: center;
+}
+/* CLASSES PRINCIPAIS */
+.menu-lateral{
+    position: relative;
+    background-color: #F6B2B2;
+    width: 25%;
+    height: 100%;
+    
+}
+.conteudo{
+    width: 75%;
+}
+
+/* CLASSES SECUNDARIAS */
+.btn-pessoa{
+    display: flex;
+    background-color: #ACD3F7;
+    margin: 10px;
+    margin-bottom: 30px;
+    height: 40px;
+    align-items: center; 
+    font-size: 25px;
+    font-weight: bolder;
+}
+.foto{
+    width: 200px;
+    height: 250px;
+}
