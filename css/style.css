@@ -73,6 +73,10 @@ a{
     align-items: center; 
     font-size: 25px;
     font-weight: bolder;
+    box-shadow: 2px 2px 2px black;
+}
+.btn-pessoa:hover{
+    background-color: #f80ee1;
 }
 .foto{
     width: 200px;
